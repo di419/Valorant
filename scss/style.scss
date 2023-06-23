@@ -170,6 +170,9 @@ a {
     @media (max-width: 767.98px) {
         padding: 45px;
     }
+    @media (max-width: 479.98px) {
+        padding: 45px 32px;
+    }
 }
 
 .logo {
@@ -183,6 +186,9 @@ a {
     }
     @media (max-width: 2100px) {
         gap: 40px;
+    }
+    @media (max-width: 479.98px) {
+        gap: 20px;
     }
 }
 
@@ -439,7 +445,11 @@ a {
     position: relative;
     @media (max-width: 767.98px) {
         width: 430px;
-        height: 1050px;
+        height: 1000px;
+    }
+    @media (max-width: 479.98px) {
+        width: 380px;
+        height: 890px;
     }
     &__text {
         font-family: "Druk-Wide";
@@ -472,15 +482,18 @@ a {
         border-radius: 25px 0px 0px 0px;
         border: 2px solid #1f2326;
         right: 31px;
+        @media (max-width: 767.98px) {
+            top: 40px;
+            right: 20px;
+        }
+        @media (max-width: 479.98px) {
+            width: 360px;
+        }
         img {
             max-width: 100%;
             @media (max-width: 599.98px) {
                 object-fit: cover;
             }
-        }
-        @media (max-width: 767.98px) {
-            top: 40px;
-            right: 20px;
         }
     }
     &__image_white {
@@ -496,6 +509,9 @@ a {
         border: 2px solid #f8f8f8;
         @media (max-width: 767.98px) {
             width: 420px;
+        }
+        @media (max-width: 479.98px) {
+            width: 360px;
         }
     }
     &__stats_white {
@@ -552,6 +568,7 @@ a {
 // --------------------------
 
 .skills-item {
+    //margin-right: 80px;
     height: 248px;
     width: 724px;
     padding: 31px 57px;
@@ -577,7 +594,7 @@ a {
         height: auto;
     }
     @media (max-width: 543.98px) {
-        padding: 31px 42px;
+        padding: 31px 22px;
     }
     &__container {
         display: flex;
@@ -636,7 +653,7 @@ a {
     }
 }
 
-// ------------------
+// -------------------
 
 .footer {
     height: 132px;
@@ -647,5 +664,3 @@ a {
     z-index: 4;
     bottom: -92px;
 }
-
-// ------------------
