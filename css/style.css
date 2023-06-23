@@ -272,6 +272,11 @@ a {
     padding: 45px;
   }
 }
+@media (max-width: 479.98px) {
+  .header {
+    padding: 45px 32px;
+  }
+}
 
 .logo {
   display: -webkit-box;
@@ -288,6 +293,11 @@ a {
 @media (max-width: 2100px) {
   .logo {
     gap: 40px;
+  }
+}
+@media (max-width: 479.98px) {
+  .logo {
+    gap: 20px;
   }
 }
 
@@ -625,7 +635,13 @@ a {
 @media (max-width: 767.98px) {
   .agents-item {
     width: 430px;
-    height: 1050px;
+    height: 1000px;
+  }
+}
+@media (max-width: 479.98px) {
+  .agents-item {
+    width: 380px;
+    height: 890px;
   }
 }
 .agents-item__text {
@@ -668,6 +684,17 @@ a {
   border: 2px solid #1f2326;
   right: 31px;
 }
+@media (max-width: 767.98px) {
+  .agents-item__image {
+    top: 40px;
+    right: 20px;
+  }
+}
+@media (max-width: 479.98px) {
+  .agents-item__image {
+    width: 360px;
+  }
+}
 .agents-item__image img {
   max-width: 100%;
 }
@@ -675,12 +702,6 @@ a {
   .agents-item__image img {
     -o-object-fit: cover;
        object-fit: cover;
-  }
-}
-@media (max-width: 767.98px) {
-  .agents-item__image {
-    top: 40px;
-    right: 20px;
   }
 }
 .agents-item__image_white {
@@ -698,6 +719,11 @@ a {
 @media (max-width: 767.98px) {
   .agents-item__stats {
     width: 420px;
+  }
+}
+@media (max-width: 479.98px) {
+  .agents-item__stats {
+    width: 360px;
   }
 }
 .agents-item__stats_white {
@@ -811,7 +837,7 @@ a {
 }
 @media (max-width: 543.98px) {
   .skills-item {
-    padding: 31px 42px;
+    padding: 31px 22px;
   }
 }
 .skills-item__container {
